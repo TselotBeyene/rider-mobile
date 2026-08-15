@@ -1,0 +1,24 @@
+.expo/
+.expo-shared/
+node_modules/
+
+# Native build output
+ios/
+android/
+
+# Design mockups (not needed to run the app)
+landing-options/
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# OS/editor noise
+.DS_Store

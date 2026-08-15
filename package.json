@@ -1,0 +1,31 @@
+{
+  "name": "@womenride/driver-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild --clean"
+  },
+  "dependencies": {
+    "@expo-google-fonts/outfit": "^0.4.3",
+    "@expo-google-fonts/syne": "^0.4.2",
+    "expo": "~57.0.12",
+    "expo-camera": "~57.0.3",
+    "expo-font": "~57.0.1",
+    "expo-linear-gradient": "~57.0.1",
+    "expo-location": "~57.0.9",
+    "expo-secure-store": "*",
+    "expo-status-bar": "*",
+    "expo-task-manager": "~57.0.9",
+    "react": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-maps": "1.20.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "typescript": "~6.0.3"
+  }
+}
